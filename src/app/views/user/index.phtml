@@ -1,0 +1,11 @@
+<h1>Hello Falcon MVC </h1>
+<?php
+global $cookie;
+echo $cookie->username;
+?>
+<?php 
+echo $this->tag->linkTo(
+    'user/signup',
+    'SignUp Here!'
+);
+?>
